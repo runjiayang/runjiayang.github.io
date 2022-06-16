@@ -40,40 +40,54 @@
 
 本人完成了点扫描系统的光路设计，光学元件选型。由于光路复杂，需用Solidworks对光路中各部件的空间位置进行了建模仿真，防止出现空间干涉情况，并设计机械结构转接件来安装部分光机元件。
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/systempath.png?raw=true" width="80%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/systempath.png?raw=true" width="606%">  
 </div>
 
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/system_simulation.png?raw=true" width="80%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/system_simulation.png?raw=true" width="60%">  
 </div>
 
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/system_image.jpg?raw=true" width="80%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/system_image.jpg?raw=true" width="60%">  
 </div>
 
 - 超分辨重建算法方面
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Image%20Scanning%20Microscopy.png?raw=true" width="80%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Image%20Scanning%20Microscopy.png?raw=true" width="60%">  
 </div>
 如上图所示，通过将传统Confocal的点探测器（PMT）更换为面阵探测器，就可以使传统Confocal采集到的2D数据增维到4D数据，本课题中，超分辨重建算法要做的就是：**如何将获取到的4D数据按照某种最合适的规则重构出超分辨的2D数据**。
 
   - 正问题模型的建立
 为了得到最合理的重分配方法，需要对成像正问题数学模型有清晰的了解
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/math_problem.png?raw=true" width="80%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/math_problem.png?raw=true" width="60%">  
 </div>
 其正问题模型可以用如下公式表示
+
 $$
 PSF_{eff}(\mathbf{r,\delta_{shift}}) = PSF_{ex}(\mathbf{r})PSF_{det}(\mathbf{r-\delta_{shift}})
 $$
+
   - 重建算法
 
 目前我们的重建算法是基于以下两种规则来作为最优的重分配的方法：
 
 a) 基于极大似然估计的Reassignment方法
+
 b) 基于多视角解卷积的光子重分配方法
 
-  - 近期结果展示
+  - 重建结果展示
+
+<div align=center>
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/ISM_result.png?raw=true" width="60%">  
+</div>
+
+(a), (b)Argo-SIM resolution pattern. The spacing between the lines increases gradually from 0 to 390 nm, with a step of 30 nm 前者为Confocal模式拍摄，后者为ISM模式拍摄，采样间隔：194.5nm (c)Confocal与ISM的对比 (d) (e) (f)为200nm的荧光微珠，激发波长为488nm，采样间隔135.5nm (g) 图中黄色线处的能量分布，图中数据的拍摄物镜为：Nikon CFI Plan Apochromat Lambda D 40X NA 0.95, Air，所有的图像仅使用了Pixel Reassignment，但没有进行解卷积
+
+- 电控方面
+系统中需要高速可控的时序控制，为此本人自学了STM32单片机，自制了一台可编程控制的信号发生器，用于系统的测试与成像。
+
+
 
 You can use the [editor on GitHub](https://github.com/runjiayang/runjiayang.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
