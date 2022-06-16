@@ -10,7 +10,7 @@
       <p><b>TEL：13312065231</b></p>
     </td>
     <td width="25%">
-      <img src="[myphoto.jpg](https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?raw=true)" width="100%">      % 插入证件照代码
+      <img src="[myphoto.jpg](https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?raw=true)" width="50%">      % 插入证件照代码
     </td>
   </tr>
 </table>
