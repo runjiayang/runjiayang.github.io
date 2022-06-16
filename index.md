@@ -9,9 +9,11 @@
       <p><b>邮箱：runjiayang@stu.pku.edu.cn</b></p>
       <p><b>TEL：13312065231</b></p>
     </td>
+    <!--
     <td width="20%">
       <img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?" width="100%">      
     </td>
+    -->
   </tr>
 </table>
 
@@ -141,6 +143,6 @@ Measurement error of spatial frequency response based on sinusoidal Siemens Star
 
 本人以光学与算法见长，本科是天大光学专业，毕业时位列专业前5%；北大数院的专业背景，可兼容硬件与算法，有物理思维和数学基础，并且擅长标定，建立物理空间和数学模型的桥梁。
 
-具备机械、电控的项目经验，自由度高。
+具备机械、电控的项目经验。
 
 性格外向，热爱分享知识、观点与理解，爱讲组会，相信沟通是解决问题的最有效方法，气氛组成员。
