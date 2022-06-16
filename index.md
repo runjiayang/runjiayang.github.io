@@ -9,8 +9,8 @@
       <p><b>邮箱：runjiayang@stu.pku.edu.cn</b></p>
       <p><b>TEL：13312065231</b></p>
     </td>
-    <td width="25%">
-      <img src="[myphoto.jpg](https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?raw=true)" width="50%">      % 插入证件照代码
+    <td width="20%">
+      <img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?" width="100%">      
     </td>
   </tr>
 </table>
