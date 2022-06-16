@@ -86,7 +86,22 @@ b) 基于多视角解卷积的光子重分配方法
 
 - 电控方面
 系统中需要高速可控的时序控制，为此本人自学了STM32单片机，自制了一台可编程控制的信号发生器，用于系统的测试与成像。
+<div align=center>
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/STM32.png?raw=true" width="60%">  
+</div>
 
+<2> 集成式片状光激发照明和全自动光片自动对准装置
+
+作为项目负责人，完成集成式片状光激发照明的光学设计，原理性验证，并与国内知名显微物镜加工厂商对接需求，优化方案。同时，完成全自动对准装置的算法设计，位移台参数选型等工作。该项目正在审核的发明专利2篇，实用新型专利1篇（本人均为第2发明人），目前还有两篇发明专利待交局。
+
+<3> 大视场落射均匀荧光激发成像系统
+此项目为机器视觉尺度项目。作为项目负责人，完成大视场落射荧光激发成像系统的搭建，在光路中引入平顶光整形器，将高斯光束整形为平顶光束，提升激发光的照明均匀度。在后期完成了放大率标定等参数标定，目前该系统已用于菌落探针预筛选。
+<div align=center>
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/machine_vis.png?raw=true" width="60%">  
+</div>
+
+<4> 基于正弦西门子星的MTF测量算法
+本科毕业设计课题，本课题实现了基于正弦西门子星(Siemens Star)的光学系统MTF的测量算法，并提出“特征识别法”和“方差判断法”两种矫正西门子星中心的方法。此外，本课题还完成了基于刀口法和分辨率板的MTF测量。本课题的一部分工作发表在SPIE的会议论文期刊（ EI核心）。
 
 
 You can use the [editor on GitHub](https://github.com/runjiayang/runjiayang.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
