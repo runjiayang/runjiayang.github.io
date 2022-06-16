@@ -34,6 +34,8 @@
 
 该项目为硕士研究生毕业课题，作为项目负责人，本人完成了该项目的光路设计，元件选型，光路搭建，系统标定，硬件控制与最终的超分辨算法重建，该项目的硬件和算法均由本人完成。
 
+- 光学方面
+
 
 
 You can use the [editor on GitHub](https://github.com/runjiayang/runjiayang.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
