@@ -34,7 +34,11 @@
 
 该项目为硕士研究生毕业课题，作为项目负责人，本人完成了该项目的光路设计，元件选型，光路搭建，系统标定，硬件控制与最终的超分辨算法重建，该项目的硬件和算法均由本人完成。
 
-- 光学方面
+荧光显微镜具有特异性强，对比度高的特点。共聚焦显微镜(Confocal)是生命科学领域最广泛使用的荧光显微镜，其有着极大的产业化应用前景。 然而，对于Confocal而言，其只能达到光学衍射极限级别的分辨能力，为了进一步提高点扫描显微镜的分辨本领，我们使用了Image Scanning Mircoscopy技术，将Confocal的PMT更换为面阵相机，利用超分辨算法进一步提升分辨率。
+
+- 光学、机械方面
+<img src="[https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?](https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/systempath.png?raw=true)" width="100%">   
+
 
 
 
