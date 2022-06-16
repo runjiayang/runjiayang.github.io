@@ -37,8 +37,16 @@
 荧光显微镜具有特异性强，对比度高的特点。共聚焦显微镜(Confocal)是生命科学领域最广泛使用的荧光显微镜，其有着极大的产业化应用前景。 然而，对于Confocal而言，其只能达到光学衍射极限级别的分辨能力，为了进一步提高点扫描显微镜的分辨本领，我们使用了Image Scanning Mircoscopy技术，将Confocal的PMT更换为面阵相机，利用超分辨算法进一步提升分辨率。
 
 - 光学、机械方面
-<img src="[https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/Photo.jpg?](https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/systempath.png?raw=true)" width="100%">   
-
+本人完成了点扫描系统的光路设计，光学元件选型。由于光路复杂，需用Solidworks对光路中各部件的空间位置进行了建模仿真，防止出现空间干涉情况，并设计机械结构转接件来安装部分光机元件。
+<div align=center>
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/systempath.png?raw=true" width="60%">  
+</div>
+<div align=center>
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/system_simulation.png?raw=true" width="60%">  
+</div>
+<div align=center>
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/system_image.jpg?raw=true" width="60%">  
+</div>
 
 
 
