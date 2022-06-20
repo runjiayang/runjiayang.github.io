@@ -74,9 +74,9 @@
 
 目前我们的重建算法是基于以下两种规则来作为最优的重分配的方法：
 
-a) 基于极大似然估计的Reassignment方法
+a) 基于极大似然估计的Reassignment方法:[部分推导]
 
-b) [基于多视角解卷积的光子重分配方法]:https://github.com/runjiayang/runjiayang.github.io/blob/main/Multiview%20Deconvolution%20Note.pdf'
+b) 基于多视角解卷积的光子重分配方法:[部分推导](https://github.com/runjiayang/runjiayang.github.io/blob/main/Multiview%20Deconvolution%20Note.pdf)
 
 3. 重建结果展示
 
