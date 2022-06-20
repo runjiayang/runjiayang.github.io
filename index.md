@@ -121,7 +121,7 @@ c. 重建结果展示
 
 本科毕业设计课题，本课题实现了基于正弦西门子星(Siemens Star)的光学系统MTF的测量算法，并提出“特征识别法”和“方差判断法”两种矫正西门子星中心的方法。此外，本课题还完成了基于刀口法和分辨率板的MTF测量。本课题的一部分工作发表在SPIE的会议论文期刊（ EI核心）。
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/SiemensStar.png?raw=true" width="60%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/SiemensStar.png?raw=true" width="90%">  
 </div>
 
 ## 公开成果
