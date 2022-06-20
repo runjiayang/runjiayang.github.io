@@ -83,7 +83,7 @@ a) 基于极大似然估计的Reassignment方法:[数学模型](https://github.c
 b) 基于多视角解卷积的光子重分配方法:[数学模型](https://github.com/runjiayang/runjiayang.github.io/blob/main/Multiview%20Deconvolution%20Note.pdf)
 
 c. 重建结果展示
-
+ 
 <div align=center>
 <img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/ISM_result.png?raw=true" width="60%">  
 </div>
