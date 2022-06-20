@@ -105,7 +105,7 @@ c. 重建结果展示
 
 为解决分块解卷积中的Block与Block之间的突变伪影，本人提出了一种基于连续性先验的优化模型，可以有效消除分块解卷积带来的伪影问题。
 <div align=center>
-<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/block_artifacts.png?raw=true" width="60%">  
+<img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/block_artifacts.png?raw=true" width="80%">  
 </div>
 [数学模型](https://github.com/runjiayang/runjiayang.github.io/blob/main/block_artifacts.pdf)
 
