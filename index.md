@@ -103,7 +103,7 @@ b) 基于多视角解卷积的光子重分配方法:[数学模型](https://githu
 <div align=center>
 <img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/block_artifacts.png?raw=true" width="60%">  
 </div>
-[过程详解](https://github.com/runjiayang/runjiayang.github.io/blob/main/block_artifacts.pdf)
+[数学模型](https://github.com/runjiayang/runjiayang.github.io/blob/main/block_artifacts.pdf)
 
 
 ### <4> 大视场落射均匀荧光激发成像系统
