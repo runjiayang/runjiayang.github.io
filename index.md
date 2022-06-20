@@ -59,7 +59,8 @@
 </div>
 如上图所示，通过将传统Confocal的点探测器（PMT）更换为面阵探测器，就可以使传统Confocal采集到的2D数据增维到4D数据，本课题中，超分辨重建算法要做的就是：**如何将获取到的4D数据按照某种最合适的规则重构出超分辨的2D数据**。
 
-1. 正问题模型的建立
+*正问题模型的建立*
+
 为了得到最合理的重分配方法，需要对成像正问题数学模型有清晰的了解
 <div align=center>
 <img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/math_problem.png?raw=true" width="60%">  
@@ -70,15 +71,15 @@
 </div>
 
 
-2. 重建算法
+*重建算法*
 
-目前我们的重建算法是基于以下两种规则来作为最优的重分配的方法：
+目前我已经实现的重建算法是基于以下两种规则来作为最优的重分配的方法：
 
-a) 基于极大似然估计的Reassignment方法:[推导](https://github.com/runjiayang/runjiayang.github.io/blob/main/PR_algorithm.pdf)
+a) 基于极大似然估计的Reassignment方法:[数学模型](https://github.com/runjiayang/runjiayang.github.io/blob/main/PR_algorithm.pdf)
 
-b) 基于多视角解卷积的光子重分配方法:[部分推导](https://github.com/runjiayang/runjiayang.github.io/blob/main/Multiview%20Deconvolution%20Note.pdf)
+b) 基于多视角解卷积的光子重分配方法:[数学模型](https://github.com/runjiayang/runjiayang.github.io/blob/main/Multiview%20Deconvolution%20Note.pdf)
 
-3. 重建结果展示
+*重建结果展示*
 
 <div align=center>
 <img src="https://github.com/runjiayang/runjiayang.github.io/blob/main/Images/ISM_result.png?raw=true" width="60%">  
